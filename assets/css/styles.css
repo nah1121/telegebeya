@@ -68,7 +68,7 @@ body * {
   margin: 50px 0 30px 0;
 }
 
-.card {
+.c1 {
   border: none;
   padding: 0;
   margin: 20px;
@@ -76,16 +76,16 @@ body * {
   border-radius: 10px;
 }
 
-.card:hover {
+.c1:hover {
   box-shadow: 0 0 20px 10px var(--primary-color);
 }
 
-.card a{
-    text-decoration: none;
-    color: var(--black-color);
+.c1 a {
+  text-decoration: none;
+  color: var(--black-color);
 }
 
-.card img {
+.c1 img {
   border: solid;
   background-origin: padding-box;
   border-radius: 10px;
@@ -216,8 +216,6 @@ body * {
   box-shadow: none;
 }
 
-
-
 .slider img {
   width: 100px;
 }
@@ -252,13 +250,13 @@ body * {
 }
 
 #slide-wrapper {
-    max-width: 500px;
-    min-width: 440px;
-    display: flex;
-    min-height: 100px;
-    align-items: center;
-    margin-top: 50px;
-    transition: 0.5s ease-in-out;
+  max-width: 500px;
+  min-width: 440px;
+  display: flex;
+  min-height: 100px;
+  align-items: center;
+  margin-top: 50px;
+  transition: 0.5s ease-in-out;
 }
 
 #slider {
@@ -267,7 +265,6 @@ body * {
   flex-wrap: nowrap;
   overflow: hidden;
 }
-
 
 .arrow {
   margin: 10px;
@@ -278,4 +275,112 @@ body * {
 .arrow:hover {
   opacity: 0.5;
   transform: scale(1.2);
+}
+
+.cols {
+  width: 30px;
+  height: 30px;
+  border: solid #858585;
+  border-radius: 500px;
+  border-width: 1px;
+  margin: 5px;
+}
+
+.bl-col{
+  background-color: black;
+}
+
+.w-col {
+  background-color: white;
+}
+
+.b-col {
+  background-color: blue;
+}
+
+.col-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.reprod {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: solid rgb(181, 181, 181);
+  border-width: 1px;
+  width: 90%;
+}
+
+.c2 {
+  width: 350px;
+  height: 550px;
+  border: none;
+  padding: 0;
+  margin: 20px;
+  transition: 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.c2:hover {
+  box-shadow: 0 0 20px 10px var(--primary-color);
+}
+
+.c2 img {
+  border: solid;
+  background-origin: padding-box;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #e5e5e5;
+  width: 100%;
+}
+
+.p-b {
+  width: 100%;
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.p-b:hover{
+  cursor: pointer!important ;
+  background-color: var(--primary-color);
+  box-shadow: 0 0 5px 1px var(--secondary-color);
+}
+
+.tcont{
+  width: 300px;
+  margin-bottom: 10px;  
+}
+
+.de-cont{
+  border-top: solid rgb(181, 181, 181);
+  border-width: 1px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.atc{
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background-color: grey;
+  font-weight: 600;
+  color: white;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.c2 a{
+  color: white;
+}
+
+.atc:hover{
+  cursor:pointer !important ;
+  background-color: var(--primary-color);
+}
+
+.fa-check{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: var(--primary-color);
 }
